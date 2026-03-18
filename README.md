@@ -64,6 +64,9 @@ mindmap
       doc["documentacao-agente.md - Detalhes técnicos"]
     readme["README.md"]
     req["requirements.txt"]
+```
+
+
 ⚙️ Como Executar
 
 Clone o repositório:Bashgit clone https://github.com/Undertan/rin-ia-assistente-financas-mei.git
