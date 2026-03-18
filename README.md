@@ -44,15 +44,16 @@ Criar uma ferramenta prática, segura e 100% local que ajude empreendedores a to
 - Ollama (LLM local gratuito) + modelo **llama3.2:1b** (leve para notebooks comuns)
 - Requests (comunicação com Ollama API)
 
+
 ## 📂 Estrutura do Projeto
 
 ```mermaid
 mindmap
   root((rin-ia-assistente-financas-mei))
-    src["src" ::icon(fa:fa-folder-open)]
+    src["src"]
       app["app.py - Interface principal (Streamlit)"]
       llm["llm.py - Lógica de IA + filtros"]
-    data["data" ::icon(fa:fa-database)]
+    data["data"]
       transacoes["transacoes.csv"]
       perfil["perfil_investidor.json"]
       produtos["produtos_financeiros.json"]
@@ -60,10 +61,10 @@ mindmap
       investimentos["investimentos_detalhados.json"]
       dicas["dicas_economia.json"]
       simulacoes["simulacoes_rendimento.csv"]
-    docs["docs" ::icon(fa:fa-book)]
+    docs["docs"]
       doc["documentacao-agente.md - Detalhes técnicos"]
-    readme["README.md" ::icon(fa:fa-file-alt)]
-    req["requirements.txt" ::icon(fa:fa-list)]
+    readme["README.md"]
+    req["requirements.txt"]
 ```
 
 
@@ -72,8 +73,10 @@ mindmap
 Clone o repositório:Bashgit clone https://github.com/Undertan/rin-ia-assistente-financas-mei.git
 cd rin-ia-assistente-financas-mei
 Crie e ative um ambiente virtual (recomendado):Bashpython -m venv venv
+
 # Windows:
 venv\Scripts\activate
+
 # Linux/Mac:
 source venv/bin/activate
 Instale as dependências:Bashpip install -r requirements.txt
@@ -142,7 +145,7 @@ Aqui estão algumas imagens reais do app rodando:
 ![Produtos para MEI](RIN%20IA%20foto2.png)
 
 **Resposta com dicas de redução de custos fixos**  
-![Redução de Custos](RIN%20IA%20foto3.png)
+![Redução de Custos]<img src= "RINIAfoto.png">
 
 
 Vídeo de Demonstração
