@@ -164,7 +164,7 @@ Clique nas thumbnails acima para assistir (total ~5-7 minutos).
 
 
 >👨‍💻 *Autor*
-Leandro da Silva – Parauapebas, PA
+**Leandro da Silva** – Parauapebas, PA
 Estudante de IA e empreendedorismo digital
 Status: 🚀 Em evolução contínua
 Feito com ❤️ para empreendedores que querem crescer com segurança financeira.
