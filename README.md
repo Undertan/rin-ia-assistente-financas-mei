@@ -153,11 +153,11 @@ Aqui estão algumas imagens reais do app rodando (clique na imagem para ampliar)
 O vídeo foi dividido em duas partes:
 Parte 1 – Demonstração completa do app (introdução, tela inicial, funcionalidades básicas e chat simples)
 
-<img src="https://img.youtube.com/vi/3o_yfGKsQtw/0.jpg" alt="Parte 1 - Demo Rin IA">
+[![Assistente Rin IA - Demonstração](https://img.youtube.com/vi/3o_yfGKsQtw/0.jpg)](https://www.youtube.com/watch?v=3o_yfGKsQtw)
 
 Parte 2 – Complemento: Resposta a pergunta complexa (exemplo de análise de fluxo negativo + plano de ação)
 
-<img src="https://img.youtube.com/vi/M4WBA1hd4JU/0.jpg" alt="Parte 2 - Pergunta Complexa Rin IA">
+[![Assistente Rin IA - Parte 2](https://img.youtube.com/vi/M4WBA1hd4JU/0.jpg)](https://www.youtube.com/watch?v=M4WBA1hd4JU)
 
 Clique nas thumbnails acima para assistir (total ~5-7 minutos).
   
