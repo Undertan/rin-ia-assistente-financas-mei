@@ -116,7 +116,7 @@ Conta Digital PJ (sem tarifa)
 CDB com liquidez diária
 Empréstimo PJ a partir de R$ 5.000
 
-Pergunta: Como captar investimento anjo?
+Pergunta: Como captar investimento?
 Rin IA: Baseado no seu perfil growth, prepare um pitch com: problema resolvido, TAM, tração atual e ask financeiro. Posso ajudar a simular cenários.
 
 🛡️ *Diferenciais do Projeto*
