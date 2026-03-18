@@ -45,6 +45,8 @@ Criar uma ferramenta prática, segura e 100% local que ajude empreendedores a to
 - Requests (comunicação com Ollama API)
 
 ## 📂 Estrutura do Projeto
+```mermaid
+
 rin-ia-assistente-financas-mei/
 ├── src/
 │   ├── app.py                  # Interface principal com Streamlit (resumo, gráfico, chat)
@@ -61,7 +63,9 @@ rin-ia-assistente-financas-mei/
 │   └── documentacao-agente.md        # Detalhes técnicos do agente
 ├── README.md
 └── requirements.txt
-text## ⚙️ Como Executar
+```
+
+ ⚙️ Como Executar
 
 1. Clone o repositório:
    ```bash
