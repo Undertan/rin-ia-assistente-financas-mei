@@ -64,7 +64,6 @@ mindmap
       doc["documentacao-agente.md - Detalhes técnicos"]
     readme["README.md" ::icon(fa:fa-file-alt)]
     req["requirements.txt" ::icon(fa:fa-list)]
-
 ```
 
 
@@ -85,13 +84,9 @@ Acesse no navegador: http://localhost:8501
 Nota de performance: Em notebook com 8 GB RAM (CPU only), respostas complexas demoram 15–30 segundos. Em hardware melhor (GPU), é quase instantâneo.
 
 
-
-```markdown
-## Fluxo de Interação do Usuário com Rin IA
-
+Fluxo de Interação do Usuário com Rin IA
 
 ```mermaid
-
 graph LR
     A[Usuário] -->|faz pergunta| B[Streamlit]
     B -->|envia prompt + contexto| C[Ollama - LLM Local<br>llama3.2:1b]
@@ -100,24 +95,25 @@ graph LR
     C -->|gera resposta segura| E[Resposta Educativa<br>para o usuário]
     E -->|exibe no chat| B
     B -->|mostra resposta| A
-
 ```
 
 
 Esse diagrama mostra o fluxo completo:
 Usuário interage via interface → Streamlit monta o prompt → Ollama processa com o modelo local → Base de Conhecimento fornece dados reais → Resposta volta educativa e segura.
 
+
 💬 Exemplos de Perguntas e Respostas
 
 Pergunta: Meu fluxo de caixa está negativo, o que faço?
 Rin IA: Analisei suas últimas transações: saídas superam entradas em R$ X. Sugiro cortar gastos fixos não essenciais e buscar uma linha de crédito PJ com juros baixos. (ou pede mais detalhes se faltar info)
+
 Pergunta: Quais produtos financeiros vocês oferecem para MEI?
 Rin IA: Para MEI, temos:
 Conta Digital PJ (sem tarifa)
 CDB com liquidez diária
 Empréstimo PJ a partir de R$ 5.000
 
-Pergunta: Como captar investimento?
+Pergunta: Como captar investimento anjo?
 Rin IA: Baseado no seu perfil growth, prepare um pitch com: problema resolvido, TAM, tração atual e ask financeiro. Posso ajudar a simular cenários.
 
 🛡️ Diferenciais do Projeto
@@ -135,19 +131,20 @@ Simulador de empréstimo / projeção de caixa
 Exportar relatório em PDF
 Deploy na Streamlit Community Cloud (versão demo)
 
-Capturas de Tela
+## Capturas de Tela
+
 Aqui estão algumas imagens reais do app rodando:
-Tela inicial com resumo financeiro, gráfico e perfil do negócio
-<img src="docs/screenshots/tela-inicial.png" alt="Tela Inicial">
-Exemplo de pergunta sobre produtos financeiros disponíveis para MEI
-<img src="docs/screenshots/produtos-mei.png" alt="Produtos para MEI">
-Resposta com dicas de redução de custos fixos
-<img src="docs/screenshots/reducao-custos.png" alt="Redução de Custos">
-👨‍💻 Autor
-Leandro da Silva – Parauapebas, PA
-Estudante de IA e empreendedorismo digital
-Status: 🚀 Em evolução contínua
-Feito com ❤️ para empreendedores que querem crescer com segurança financeira.
+
+**Tela inicial com resumo financeiro, gráfico e perfil do negócio**  
+![Tela Inicial](RIN%20IA%20foto1.png)
+
+**Exemplo de pergunta sobre produtos financeiros disponíveis para MEI**  
+![Produtos para MEI](RIN%20IA%20foto2.png)
+
+**Resposta com dicas de redução de custos fixos**  
+![Redução de Custos](RIN%20IA%20foto3.png)
+
+
 Vídeo de Demonstração
 O vídeo foi dividido em duas partes:
 Parte 1 – Demonstração completa do app (introdução, tela inicial, funcionalidades básicas e chat simples)
@@ -155,4 +152,12 @@ Parte 1 – Demonstração completa do app (introdução, tela inicial, funciona
 Parte 2 – Complemento: Resposta a pergunta complexa (exemplo de análise de fluxo negativo + plano de ação)
 <img src="https://img.youtube.com/vi/M4WBA1hd4JU/0.jpg" alt="Parte 2 - Pergunta Complexa Rin IA">
 Clique nas thumbnails acima para assistir (total ~5-7 minutos).
+  
+
+
+👨‍💻 Autor
+Leandro da Silva – Parauapebas, PA
+Estudante de IA e empreendedorismo digital
+Status: 🚀 Em evolução contínua
+Feito com ❤️ para empreendedores que querem crescer com segurança financeira.
 Qualquer dúvida, abra uma issue! 💬
