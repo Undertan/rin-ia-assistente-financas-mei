@@ -2,9 +2,9 @@
 
 **Projeto final da trilha de IA Generativa – DIO Lab BIA do Futuro**
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B.svg)](https://streamlit.io/)
-[![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-green)](https://ollama.com/)
+[<image-card alt="Python" src="https://img.shields.io/badge/Python-3.10+-blue.svg" ></image-card>](https://www.python.org/)
+[<image-card alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.x-FF4B4B.svg" ></image-card>](https://streamlit.io/)
+[<image-card alt="Ollama" src="https://img.shields.io/badge/Ollama-Local%20LLM-green" ></image-card>](https://ollama.com/)
 
 **Rin IA** é uma assistente inteligente especializada em **finanças e empreendedorismo para MEI, pequenos negócios e startups**.  
 Ela analisa dados financeiros do usuário (mockados em CSV/JSON), responde perguntas contextualizadas e oferece orientações seguras, com foco em:
@@ -74,7 +74,7 @@ venv\Scripts\activate
 # Linux/Mac:
 source venv/bin/activate
 Instale as dependências:Bashpip install -r requirements.txt
-Inicie o Ollama em outra janela do terminal:Bashollama serve(Baixe o modelo primeiro: ollama pull llama3.2:1b)
+Inicie o Ollama em outra janela do terminal:Bashollama serve(Baixe o modelo primeiro, se ainda não tiver:)Bashollama pull llama3.2:1b
 Rode a aplicação:Bashstreamlit run src/app.py
 Acesse no navegador: http://localhost:8501
 
@@ -121,4 +121,3 @@ Status: 🚀 Em evolução contínua
 Feito com ❤️ para empreendedores que querem crescer com segurança financeira.
 Vídeo de demonstração
 Qualquer dúvida, abra uma issue! 💬
-
