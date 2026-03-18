@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Rin IA - Assistente de Empreendedorismo e Finanças
 
 **Projeto final da trilha de IA Generativa – DIO Lab BIA do Futuro**
@@ -105,3 +106,7 @@ Leandro – Parauapebas, PA
 Estudante de IA e empreendedorismo digital
 Status: 🚀 Em evolução contínua
 Feito com ❤️ para empreendedores que querem crescer com segurança financeira.
+=======
+# rin-ia-assistente-financas-mei
+Assistente de finanças e empreendedorismo para MEI usando Streamlit + Ollama local (projeto DIO).
+>>>>>>> 5481ab2bb7737cbbee70b935bd48a2bfea1d2650
