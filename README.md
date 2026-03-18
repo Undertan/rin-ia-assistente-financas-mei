@@ -68,7 +68,7 @@ mindmap
 ```
 
 
-⚙️ Como Executar
+⚙️ *Como Executar*
 
 Clone o repositório:Bashgit clone https://github.com/Undertan/rin-ia-assistente-financas-mei.git
 cd rin-ia-assistente-financas-mei
@@ -87,7 +87,7 @@ Acesse no navegador: http://localhost:8501
 Nota de performance: Em notebook com 8 GB RAM (CPU only), respostas complexas demoram 15–30 segundos. Em hardware melhor (GPU), é quase instantâneo.
 
 
-Fluxo de Interação do Usuário com Rin IA
+>*Fluxo de Interação do Usuário com Rin IA*
 
 ```mermaid
 graph LR
@@ -105,7 +105,7 @@ Esse diagrama mostra o fluxo completo:
 Usuário interage via interface → Streamlit monta o prompt → Ollama processa com o modelo local → Base de Conhecimento fornece dados reais → Resposta volta educativa e segura.
 
 
-💬 Exemplos de Perguntas e Respostas
+💬 **Exemplos de Perguntas e Respostas**
 
 Pergunta: Meu fluxo de caixa está negativo, o que faço?
 Rin IA: Analisei suas últimas transações: saídas superam entradas em R$ X. Sugiro cortar gastos fixos não essenciais e buscar uma linha de crédito PJ com juros baixos. (ou pede mais detalhes se faltar info)
@@ -119,14 +119,14 @@ Empréstimo PJ a partir de R$ 5.000
 Pergunta: Como captar investimento anjo?
 Rin IA: Baseado no seu perfil growth, prepare um pitch com: problema resolvido, TAM, tração atual e ask financeiro. Posso ajudar a simular cenários.
 
-🛡️ Diferenciais do Projeto
+🛡️ *Diferenciais do Projeto*
 
 IA 100% local (privacidade total, sem envio de dados para nuvem)
 Respostas validadas contra alucinações e conselhos de alto risco
 Contexto persistente do negócio do usuário
 Totalmente alinhado ao desafio "BIA do Futuro" da DIO
 
-📈 Próximos Passos / Melhorias Planejadas
+📈 *Próximos Passos / Melhorias Planejadas*
 
 Integração com LangChain (melhor memória e RAG)
 Gráficos interativos (Plotly)
@@ -136,19 +136,19 @@ Deploy na Streamlit Community Cloud (versão demo)
 
 ## Capturas de Tela
 
-Aqui estão algumas imagens reais do app rodando:
+Aqui estão algumas imagens reais do app rodando (clique na imagem para ampliar):
 
 **Tela inicial com resumo financeiro, gráfico e perfil do negócio**  
-![Tela Inicial](RIN%20IA%20foto1.png)
+[![Tela Inicial](docs/screenshots/RIN IA foto1.png)](docs/screenshots/RIN IA foto1.png)
 
 **Exemplo de pergunta sobre produtos financeiros disponíveis para MEI**  
-![Produtos para MEI](RIN%20IA%20foto2.png)
+[![Produtos para MEI](docs/screenshots/RIN IA foto2.png)](docs/screenshots/RIN IA foto2.png)
 
 **Resposta com dicas de redução de custos fixos**  
-![Redução de Custos]<img src= "RINIAfoto.png">
+[![Redução de Custos](docs/screenshots/RIN IA foto3.png)](docs/screenshots/RIN IA foto3.png)
 
 
-Vídeo de Demonstração
+**Vídeo de Demonstração**
 O vídeo foi dividido em duas partes:
 Parte 1 – Demonstração completa do app (introdução, tela inicial, funcionalidades básicas e chat simples)
 <img src="https://img.youtube.com/vi/3o_yfGKsQtw/0.jpg" alt="Parte 1 - Demo Rin IA">
@@ -158,7 +158,7 @@ Clique nas thumbnails acima para assistir (total ~5-7 minutos).
   
 
 
-👨‍💻 Autor
+>👨‍💻 *Autor*
 Leandro da Silva – Parauapebas, PA
 Estudante de IA e empreendedorismo digital
 Status: 🚀 Em evolução contínua
