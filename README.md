@@ -2,9 +2,9 @@
 
 **Projeto final da trilha de IA Generativa – DIO Lab BIA do Futuro**
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B.svg)](https://streamlit.io/)
-[![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-green)](https://ollama.com/)
+[<image-card alt="Python" src="https://img.shields.io/badge/Python-3.10+-blue.svg" ></image-card>](https://www.python.org/)
+[<image-card alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.x-FF4B4B.svg" ></image-card>](https://streamlit.io/)
+[<image-card alt="Ollama" src="https://img.shields.io/badge/Ollama-Local%20LLM-green" ></image-card>](https://ollama.com/)
 
 **Rin IA** é uma assistente inteligente especializada em **finanças e empreendedorismo para MEI, pequenos negócios e startups**.  
 Ela analisa dados financeiros do usuário (mockados em CSV/JSON), responde perguntas contextualizadas e oferece orientações seguras, com foco em:
@@ -49,21 +49,21 @@ Criar uma ferramenta prática, segura e 100% local que ajude empreendedores a to
 ```mermaid
 mindmap
   root((rin-ia-assistente-financas-mei))
-    src
-      app.py[Interface principal (Streamlit)]
-      llm.py[Lógica de IA + filtros]
-    data
-      transacoes.csv
-      perfil_investidor.json
-      produtos_financeiros.json
-      historico_atendimento.csv(Opcional)
-      investimentos_detalhados.json
-      dicas_economia.json
-      simulacoes_rendimento.csv
-    docs
-      documentacao-agente.md[Detalhes técnicos]
-    README.md
-    requirements.txt
+    src["src"]
+      app["app.py - Interface principal (Streamlit)"]
+      llm["llm.py - Lógica de IA + filtros"]
+    data["data"]
+      transacoes["transacoes.csv"]
+      perfil["perfil_investidor.json"]
+      produtos["produtos_financeiros.json"]
+      historico["historico_atendimento.csv (Opcional)"]
+      investimentos["investimentos_detalhados.json"]
+      dicas["dicas_economia.json"]
+      simulacoes["simulacoes_rendimento.csv"]
+    docs["docs"]
+      doc["documentacao-agente.md - Detalhes técnicos"]
+    readme["README.md"]
+    req["requirements.txt"]
 ⚙️ Como Executar
 
 Clone o repositório:Bashgit clone https://github.com/Undertan/rin-ia-assistente-financas-mei.git
