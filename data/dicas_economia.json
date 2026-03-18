@@ -1,0 +1,38 @@
+{
+  "reducao_custos_fixos": [
+    "Negocie contratos de aluguel, internet, telefone e softwares recorrentes – peça desconto para pagamento anual.",
+    "Migre para planos mais baratos ou versões gratuitas de ferramentas (ex: Google Workspace free tier, Canva free, Trello free).",
+    "Cancele assinaturas e serviços não utilizados há mais de 60 dias – faça auditoria mensal.",
+    "Troque energia elétrica por LED e desligue equipamentos em standby para reduzir conta de luz."
+  ],
+  "otimizacao_gastos_variaveis": [
+    "Compare preços de fornecedores regularmente e negocie descontos por volume ou pagamento à vista.",
+    "Compre matéria-prima ou estoque em épocas de promoção ou fora de sazonalidade alta.",
+    "Use transporte próprio ou fretes compartilhados em vez de entregas individuais caras.",
+    "Prefira PIX ou boleto com desconto em vez de cartão de crédito para compras no atacado."
+  ],
+  "eficiencia_operacional": [
+    "Automatize tarefas repetitivas com ferramentas gratuitas (ex: Zapier free, Make.com free tier, Google Sheets + scripts).",
+    "Treine a equipe para reduzir retrabalho e erros que geram custos extras.",
+    "Mantenha estoque mínimo viável (just-in-time) para evitar capital parado em mercadorias.",
+    "Digitalize documentos e processos para reduzir impressão e armazenamento físico."
+  ],
+  "marketing_e_vendas_economico": [
+    "Invista em redes sociais orgânicas e grupos locais no WhatsApp/Facebook antes de pagar anúncios.",
+    "Crie conteúdo reutilizável (posts, stories, reels) para reduzir custo por lead.",
+    "Faça parcerias com outros empreendedores locais (troca de divulgação sem custo).",
+    "Use programas de indicação e fidelidade para atrair clientes sem gastar em aquisição."
+  ],
+  "gestao_financeira_geral": [
+    "Separe conta PJ e PF desde o início para evitar confusão tributária e gastos misturados.",
+    "Registre todo gasto do negócio no mesmo dia para ter controle real do fluxo de caixa.",
+    "Use apps gratuitos de controle financeiro (ex: Mobills Business, Organizze, Excel/Google Sheets).",
+    "Planeje reserva de emergência equivalente a 3–6 meses de despesas fixas do negócio."
+  ],
+  "dicas_gerais_para_mei": [
+    "Aproveite isenções e benefícios do MEI (ex: DAS fixo baixo, aposentadoria por idade).",
+    "Emita nota fiscal sempre – evita multas e melhora credibilidade com clientes.",
+    "Acompanhe limite de faturamento anual para não ultrapassar e migrar para Simples Nacional.",
+    "Consulte o Portal do Empreendedor regularmente para atualizações gratuitas."
+  ]
+}

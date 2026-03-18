@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "Conta Digital PJ",
+    "tipo": "conta corrente empresarial",
+    "risco": "baixo",
+    "descricao": "Conta sem tarifa de manutenção para MEI e pequenas empresas. Receba PIX, pague boletos e fornecedores, emita boletos e faça transferências ilimitadas.",
+    "vantagens": ["Zero tarifa mensal", "PIX ilimitado", "Cartão de débito PJ", "Separação clara de finanças pessoais e do negócio"],
+    "indicado_para": "MEI, microempresas e freelancers que precisam de controle diário"
+  },
+  {
+    "nome": "CDB Liquidez Diária PJ",
+    "tipo": "investimento pós-fixado",
+    "risco": "baixo",
+    "descricao": "Certificado de Depósito Bancário com rendimento diário e resgate imediato. Ideal para deixar o caixa ocioso do negócio rendendo sem perder acesso rápido.",
+    "vantagens": ["Rendimento ~100-110% do CDI", "Liquidez diária", "Garantia FGC até R$ 250 mil por CPF/CNPJ", "Baixo risco"],
+    "indicado_para": "Empresas com fluxo de caixa positivo que querem rentabilizar reserva de emergência"
+  },
+  {
+    "nome": "Empréstimo Capital de Giro PJ",
+    "tipo": "crédito",
+    "risco": "médio",
+    "descricao": "Linha de crédito para capital de giro, pagamento de fornecedores ou estoque. Taxas mais baixas para MEI com bom histórico.",
+    "vantagens": ["Parcelas fixas", "Prazo de até 36 meses", "Possibilidade de carência", "Análise rápida para clientes com movimentação na conta PJ"],
+    "indicado_para": "Negócios com sazonalidade ou necessidade de investimento em crescimento"
+  },
+  {
+    "nome": "Cartão de Crédito Empresarial",
+    "tipo": "crédito rotativo",
+    "risco": "médio",
+    "descricao": "Cartão PJ para compras de suprimentos, anúncios e despesas operacionais. Controle separado do cartão pessoal e limite baseado no faturamento.",
+    "vantagens": ["Pontos ou cashback em compras do negócio", "Relatório de despesas automático", "Limite flexível", "Anuidade zero ou baixa para MEI"],
+    "indicado_para": "Empreendedores que compram insumos ou investem em marketing digital"
+  },
+  {
+    "nome": "LCI/LCA para Empresas",
+    "tipo": "investimento isento de IR",
+    "risco": "baixo",
+    "descricao": "Letras de Crédito Imobiliário ou do Agronegócio isentas de Imposto de Renda. Bom para médio prazo quando o caixa permite imobilizar parte do dinheiro.",
+    "vantagens": ["Isenção de IR", "Rendimento ~95-110% do CDI", "Garantia FGC", "Segurança similar ao Tesouro Direto"],
+    "indicado_para": "Negócios com reserva de contingência que podem esperar 90-360 dias para resgate"
+  }
+]

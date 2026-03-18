@@ -1,0 +1,16 @@
+nome_investimento,periodo_meses,valor_inicial,valor_final,rendimento_bruto_percentual
+Conta Digital PJ,3,20000,20000,0.0
+Conta Digital PJ,6,20000,20000,0.0
+Conta Digital PJ,12,20000,20000,0.0
+CDB Liquidez Diária PJ,3,20000,20510,2.55
+CDB Liquidez Diária PJ,6,20000,21080,5.4
+CDB Liquidez Diária PJ,12,20000,22240,11.2
+Tesouro Selic PJ,3,30000,30300,1.0
+Tesouro Selic PJ,6,30000,30750,2.5
+Tesouro Selic PJ,12,30000,31650,5.5
+LCI/LCA PJ Isento IR,3,15000,15375,2.5
+LCI/LCA PJ Isento IR,6,15000,15825,5.5
+LCI/LCA PJ Isento IR,12,15000,16800,12.0
+Empréstimo Capital de Giro PJ,12,50000,56000,-12.0
+Empréstimo Capital de Giro PJ,24,50000,63000,-26.0
+Empréstimo Capital de Giro PJ,36,50000,71000,-42.0

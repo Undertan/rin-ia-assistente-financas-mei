@@ -1,0 +1,11 @@
+# requirements.txt - Rin IA (Assistente de Empreendedorismo e Finanças)
+
+streamlit>=1.38.0          # Interface principal - versão estável recente (2025/2026)
+pandas>=2.2.3              # Manipulação de CSV e dados financeiros
+requests>=2.32.3           # Comunicação com Ollama local
+python-dotenv>=1.0.1       # Para carregar variáveis de ambiente (ex: se migrar para API paga no futuro)
+
+# Opcionais - úteis para melhorias futuras (comente se não usar ainda)
+matplotlib>=3.9.0          # Gráficos de entradas/saídas, fluxo de caixa (opcional)
+plotly>=5.24.0             # Gráficos interativos no Streamlit (opcional)
+langchain>=0.3.0           # Se quiser adicionar memória avançada ou RAG no futuro (opcional)

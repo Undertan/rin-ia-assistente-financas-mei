@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Conta Digital PJ",
+        "tipo": "baixo risco",
+        "descricao": "Conta empresarial sem tarifa de manutenção, ideal para receber PIX, pagar fornecedores e separar finanças do negócio. Rendimento zero ou mínimo, mas alta liquidez.",
+        "indicado_para": "MEI e pequenos negócios que precisam de controle diário de caixa",
+        "liquidez": "diária"
+    },
+    {
+        "nome": "CDB com Liquidez Diária (PJ)",
+        "tipo": "baixo a médio risco",
+        "descricao": "Certificado de Depósito Bancário com rendimento superior à poupança. Pode ser usado como reserva de emergência do negócio com resgate rápido.",
+        "indicado_para": "Empresas que querem rentabilizar caixa ocioso sem perder acesso rápido",
+        "liquidez": "diária ou D+1",
+        "rendimento_estimado": "100–110% do CDI (varia por banco)"
+    },
+    {
+        "nome": "Tesouro Selic (via conta PJ)",
+        "tipo": "baixo risco",
+        "descricao": "Título público pós-fixado que segue a taxa Selic. Excelente para reserva de emergência empresarial com segurança máxima e liquidez alta.",
+        "indicado_para": "Negócios que priorizam preservação de capital e proteção contra inflação",
+        "liquidez": "D+1",
+        "rendimento_estimado": "Próximo à Selic atual"
+    },
+    {
+        "nome": "Empréstimo PJ com Garantia",
+        "tipo": "crédito (médio risco)",
+        "descricao": "Linha de crédito para capital de giro ou investimento fixo, com taxas menores quando há garantia (ex: CDB ou imóvel). Sujeito a análise de faturamento.",
+        "indicado_para": "Empresas com fluxo de caixa sazonal ou necessidade de expansão rápida",
+        "liquidez": "Imediata após aprovação",
+        "taxa_estimada": "1,5–3,5% ao mês (varia por banco e garantia)"
+    },
+    {
+        "nome": "LCI/LCA PJ",
+        "tipo": "baixo risco",
+        "descricao": "Letras de Crédito Imobiliário ou do Agronegócio isentas de IR. Bom rendimento para reserva de médio prazo do negócio.",
+        "indicado_para": "Empreendedores que querem rentabilizar caixa sem pagar imposto de renda",
+        "liquidez": "Média (geralmente 90–360 dias)",
+        "rendimento_estimado": "95–110% do CDI + isenção de IR"
+    }
+]

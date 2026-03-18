@@ -1,0 +1,23 @@
+{
+  "nome": "Leandro Empreendedor",
+  "tipo_negocio": "MEI",
+  "ramo_atividade": "Serviços de TI e Consultoria Digital",
+  "perfil_risco": "moderado",
+  "objetivo_principal": "crescimento sustentável do negócio e reserva de emergência",
+  "faturamento_mensal_medio": 8000,
+  "despesas_fixas_mensais": 3500,
+  "idade_negocio": "2 anos",
+  "numero_funcionarios": 1,
+  "necessidades_atuais": [
+    "melhorar fluxo de caixa",
+    "buscar linha de crédito PJ com juros baixos",
+    "rentabilizar caixa ocioso sem perder liquidez",
+    "planejar captação de recursos para expansão"
+  ],
+  "tolerancia_risco": "moderada",
+  "prazo_objetivos": {
+    "curto_prazo": "6-12 meses (reserva de emergência e fluxo positivo)",
+    "medio_prazo": "1-3 anos (expansão de serviços e contratação)",
+    "longo_prazo": "3+ anos (possível migração para ME ou captação externa)"
+  }
+}

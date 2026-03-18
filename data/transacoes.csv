@@ -1,0 +1,11 @@
+data,descricao,valor,tipo
+2025-02-05,Recebimento PIX Cliente A,4500,entrada
+2025-02-07,Pagamento fornecedor de software,-1200,saida
+2025-02-10,Recebimento projeto freelance,2800,entrada
+2025-02-12,Anuncios Meta Ads marketing,-800,saida
+2025-02-15,Taxa MEI DAS,-70,saida
+2025-02-18,Recebimento PIX Cliente B,3200,entrada
+2025-02-20,Manutencao equipamento computador,-450,saida
+2025-02-22,Compra dominio hospedagem anual,-350,saida
+2025-02-25,Recebimento pagamento recorrente,1500,entrada
+2025-02-28,Retirada pro-labore,-1500,saida
