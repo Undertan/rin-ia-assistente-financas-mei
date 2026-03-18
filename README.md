@@ -2,9 +2,9 @@
 
 **Projeto final da trilha de IA Generativa – DIO Lab BIA do Futuro**
 
-[<image-card alt="Python" src="https://img.shields.io/badge/Python-3.10+-blue.svg" ></image-card>](https://www.python.org/)
-[<image-card alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.x-FF4B4B.svg" ></image-card>](https://streamlit.io/)
-[<image-card alt="Ollama" src="https://img.shields.io/badge/Ollama-Local%20LLM-green" ></image-card>](https://ollama.com/)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B.svg)](https://streamlit.io/)
+[![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-green)](https://ollama.com/)
 
 **Rin IA** é uma assistente inteligente especializada em **finanças e empreendedorismo para MEI, pequenos negócios e startups**.  
 Ela analisa dados financeiros do usuário (mockados em CSV/JSON), responde perguntas contextualizadas e oferece orientações seguras, com foco em:
@@ -49,10 +49,10 @@ Criar uma ferramenta prática, segura e 100% local que ajude empreendedores a to
 ```mermaid
 mindmap
   root((rin-ia-assistente-financas-mei))
-    src["src"]
+    src["src" ::icon(fa:fa-folder-open)]
       app["app.py - Interface principal (Streamlit)"]
       llm["llm.py - Lógica de IA + filtros"]
-    data["data"]
+    data["data" ::icon(fa:fa-database)]
       transacoes["transacoes.csv"]
       perfil["perfil_investidor.json"]
       produtos["produtos_financeiros.json"]
@@ -60,13 +60,10 @@ mindmap
       investimentos["investimentos_detalhados.json"]
       dicas["dicas_economia.json"]
       simulacoes["simulacoes_rendimento.csv"]
-    docs["docs"]
+    docs["docs" ::icon(fa:fa-book)]
       doc["documentacao-agente.md - Detalhes técnicos"]
-    readme["README.md"]
-    req["requirements.txt"]
-```
-
-
+    readme["README.md" ::icon(fa:fa-file-alt)]
+    req["requirements.txt" ::icon(fa:fa-list)]
 ⚙️ Como Executar
 
 Clone o repositório:Bashgit clone https://github.com/Undertan/rin-ia-assistente-financas-mei.git
@@ -95,30 +92,11 @@ Empréstimo PJ a partir de R$ 5.000
 Pergunta: Como captar investimento anjo?
 Rin IA: Baseado no seu perfil growth, prepare um pitch com: problema resolvido, TAM, tração atual e ask financeiro. Posso ajudar a simular cenários.
 
-
-## Fluxo de Interação do Usuário com Rin IA
-
-```mermaid
-graph LR
-    A[Usuário] -->|faz pergunta| B[Streamlit]
-    B -->|envia prompt + contexto| C[Ollama - LLM Local<br>llama3.2:1b]
-    C -->|consulta / valida| D[Base de Conhecimento<br>dados mockados: CSV/JSON]
-    D -->|retorna dados reais| C
-    C -->|gera resposta segura| E[Resposta Educativa<br>para o usuário]
-    E -->|exibe no chat| B
-    B -->|mostra resposta| A
-```
-
-
-Esse diagrama mostra o fluxo completo:
-
-Usuário interage via interface
-Streamlit monta o prompt com contexto
-Ollama processa com o modelo local
-Base de Conhecimento (seus arquivos data/) fornece dados reais
-Resposta volta educativa e segura
-
-
+Fluxo de Interação do Usuário com Rin IA
+#mermaid-diagram-mermaid-sesysyv{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#ccc;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-diagram-mermaid-sesysyv .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-diagram-mermaid-sesysyv .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-diagram-mermaid-sesysyv .error-icon{fill:#a44141;}#mermaid-diagram-mermaid-sesysyv .error-text{fill:#ddd;stroke:#ddd;}#mermaid-diagram-mermaid-sesysyv .edge-thickness-normal{stroke-width:1px;}#mermaid-diagram-mermaid-sesysyv .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-mermaid-sesysyv .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-mermaid-sesysyv .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-diagram-mermaid-sesysyv .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-mermaid-sesysyv .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-mermaid-sesysyv .marker{fill:lightgrey;stroke:lightgrey;}#mermaid-diagram-mermaid-sesysyv .marker.cross{stroke:lightgrey;}#mermaid-diagram-mermaid-sesysyv svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-diagram-mermaid-sesysyv p{margin:0;}#mermaid-diagram-mermaid-sesysyv .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#ccc;}#mermaid-diagram-mermaid-sesysyv .cluster-label text{fill:#F9FFFE;}#mermaid-diagram-mermaid-sesysyv .cluster-label span{color:#F9FFFE;}#mermaid-diagram-mermaid-sesysyv .cluster-label span p{background-color:transparent;}#mermaid-diagram-mermaid-sesysyv .label text,#mermaid-diagram-mermaid-sesysyv span{fill:#ccc;color:#ccc;}#mermaid-diagram-mermaid-sesysyv .node rect,#mermaid-diagram-mermaid-sesysyv .node circle,#mermaid-diagram-mermaid-sesysyv .node ellipse,#mermaid-diagram-mermaid-sesysyv .node polygon,#mermaid-diagram-mermaid-sesysyv .node path{fill:#1f2020;stroke:#ccc;stroke-width:1px;}#mermaid-diagram-mermaid-sesysyv .rough-node .label text,#mermaid-diagram-mermaid-sesysyv .node .label text,#mermaid-diagram-mermaid-sesysyv .image-shape .label,#mermaid-diagram-mermaid-sesysyv .icon-shape .label{text-anchor:middle;}#mermaid-diagram-mermaid-sesysyv .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-diagram-mermaid-sesysyv .rough-node .label,#mermaid-diagram-mermaid-sesysyv .node .label,#mermaid-diagram-mermaid-sesysyv .image-shape .label,#mermaid-diagram-mermaid-sesysyv .icon-shape .label{text-align:center;}#mermaid-diagram-mermaid-sesysyv .node.clickable{cursor:pointer;}#mermaid-diagram-mermaid-sesysyv .root .anchor path{fill:lightgrey!important;stroke-width:0;stroke:lightgrey;}#mermaid-diagram-mermaid-sesysyv .arrowheadPath{fill:lightgrey;}#mermaid-diagram-mermaid-sesysyv .edgePath .path{stroke:lightgrey;stroke-width:2.0px;}#mermaid-diagram-mermaid-sesysyv .flowchart-link{stroke:lightgrey;fill:none;}#mermaid-diagram-mermaid-sesysyv .edgeLabel{background-color:hsl(0, 0%, 34.4117647059%);text-align:center;}#mermaid-diagram-mermaid-sesysyv .edgeLabel p{background-color:hsl(0, 0%, 34.4117647059%);}#mermaid-diagram-mermaid-sesysyv .edgeLabel rect{opacity:0.5;background-color:hsl(0, 0%, 34.4117647059%);fill:hsl(0, 0%, 34.4117647059%);}#mermaid-diagram-mermaid-sesysyv .labelBkg{background-color:rgba(87.75, 87.75, 87.75, 0.5);}#mermaid-diagram-mermaid-sesysyv .cluster rect{fill:hsl(180, 1.5873015873%, 28.3529411765%);stroke:rgba(255, 255, 255, 0.25);stroke-width:1px;}#mermaid-diagram-mermaid-sesysyv .cluster text{fill:#F9FFFE;}#mermaid-diagram-mermaid-sesysyv .cluster span{color:#F9FFFE;}#mermaid-diagram-mermaid-sesysyv div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:hsl(20, 1.5873015873%, 12.3529411765%);border:1px solid rgba(255, 255, 255, 0.25);border-radius:2px;pointer-events:none;z-index:100;}#mermaid-diagram-mermaid-sesysyv .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#ccc;}#mermaid-diagram-mermaid-sesysyv rect.text{fill:none;stroke-width:0;}#mermaid-diagram-mermaid-sesysyv .icon-shape,#mermaid-diagram-mermaid-sesysyv .image-shape{background-color:hsl(0, 0%, 34.4117647059%);text-align:center;}#mermaid-diagram-mermaid-sesysyv .icon-shape p,#mermaid-diagram-mermaid-sesysyv .image-shape p{background-color:hsl(0, 0%, 34.4117647059%);padding:2px;}#mermaid-diagram-mermaid-sesysyv .icon-shape rect,#mermaid-diagram-mermaid-sesysyv .image-shape rect{opacity:0.5;background-color:hsl(0, 0%, 34.4117647059%);fill:hsl(0, 0%, 34.4117647059%);}#mermaid-diagram-mermaid-sesysyv :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}faz perguntaenvia prompt + contextoconsulta / validaretorna dados reaisgera resposta seguraexibe no chatmostra respostaUsuárioStreamlitOllama - LLM Local
+llama3.2:1bBase de Conhecimento
+dados mockados: CSV/JSONResposta Educativa
+para o usuário
 🛡️ Diferenciais do Projeto
 
 IA 100% local (privacidade total, sem envio de dados para nuvem)
@@ -146,5 +124,11 @@ Leandro da Silva – Parauapebas, PA
 Estudante de IA e empreendedorismo digital
 Status: 🚀 Em evolução contínua
 Feito com ❤️ para empreendedores que querem crescer com segurança financeira.
-Vídeo de demonstração
+Vídeo de Demonstração
+O vídeo foi dividido em duas partes para facilitar a gravação em hardware limitado:
+Parte 1 – Demonstração completa do app (introdução, tela inicial, funcionalidades básicas e chat simples)
+<img src="https://img.youtube.com/vi/3o_yfGKsQtw/0.jpg" alt="Parte 1 - Demo Rin IA">
+Parte 2 – Complemento: Resposta a pergunta complexa (exemplo de análise de fluxo negativo + plano de ação)
+<img src="https://img.youtube.com/vi/M4WBA1hd4JU/0.jpg" alt="Parte 2 - Pergunta Complexa Rin IA">
+Clique nas thumbnails acima para assistir (total ~5-7 minutos).
 Qualquer dúvida, abra uma issue! 💬
