@@ -107,6 +107,9 @@ graph LR
     C -->|gera resposta segura| E[Resposta Educativa<br>para o usuário]
     E -->|exibe no chat| B
     B -->|mostra resposta| A
+```
+
+
 Esse diagrama mostra o fluxo completo:
 
 Usuário interage via interface
@@ -114,8 +117,6 @@ Streamlit monta o prompt com contexto
 Ollama processa com o modelo local
 Base de Conhecimento (seus arquivos data/) fornece dados reais
 Resposta volta educativa e segura
-```
-
 
 
 🛡️ Diferenciais do Projeto
