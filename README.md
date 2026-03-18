@@ -139,21 +139,26 @@ Deploy na Streamlit Community Cloud (versão demo)
 Aqui estão algumas imagens reais do app rodando (clique na imagem para ampliar):
 
 **Tela inicial com resumo financeiro, gráfico e perfil do negócio**  
-[![Tela Inicial](docs/screenshots/RIN IA foto1.png)](docs/screenshots/RIN IA foto1.png)
+[![Tela Inicial](docs/screenshots/RIN%20IA%20foto3.png)]
 
 **Exemplo de pergunta sobre produtos financeiros disponíveis para MEI**  
-[![Produtos para MEI](docs/screenshots/RIN IA foto2.png)](docs/screenshots/RIN IA foto2.png)
+[![Produtos para MEI](docs/screenshots/RIN%20IA%20foto2.png)]
 
-**Resposta com dicas de redução de custos fixos**  
-[![Redução de Custos](docs/screenshots/RIN IA foto3.png)](docs/screenshots/RIN IA foto3.png)
+**Resposta com dicas de redução de custos fixos** 
+[![Redução de Custos](docs/screenshots/RIN%20IA%20foto1.png)]
 
 
 **Vídeo de Demonstração**
+
 O vídeo foi dividido em duas partes:
 Parte 1 – Demonstração completa do app (introdução, tela inicial, funcionalidades básicas e chat simples)
+
 <img src="https://img.youtube.com/vi/3o_yfGKsQtw/0.jpg" alt="Parte 1 - Demo Rin IA">
+
 Parte 2 – Complemento: Resposta a pergunta complexa (exemplo de análise de fluxo negativo + plano de ação)
+
 <img src="https://img.youtube.com/vi/M4WBA1hd4JU/0.jpg" alt="Parte 2 - Pergunta Complexa Rin IA">
+
 Clique nas thumbnails acima para assistir (total ~5-7 minutos).
   
 
