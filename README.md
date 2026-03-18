@@ -95,6 +95,29 @@ Empréstimo PJ a partir de R$ 5.000
 Pergunta: Como captar investimento anjo?
 Rin IA: Baseado no seu perfil growth, prepare um pitch com: problema resolvido, TAM, tração atual e ask financeiro. Posso ajudar a simular cenários.
 
+
+## Fluxo de Interação do Usuário com Rin IA
+
+```mermaid
+graph LR
+    A[Usuário] -->|faz pergunta| B[Streamlit]
+    B -->|envia prompt + contexto| C[Ollama - LLM Local<br>llama3.2:1b]
+    C -->|consulta / valida| D[Base de Conhecimento<br>dados mockados: CSV/JSON]
+    D -->|retorna dados reais| C
+    C -->|gera resposta segura| E[Resposta Educativa<br>para o usuário]
+    E -->|exibe no chat| B
+    B -->|mostra resposta| A
+Esse diagrama mostra o fluxo completo:
+
+Usuário interage via interface
+Streamlit monta o prompt com contexto
+Ollama processa com o modelo local
+Base de Conhecimento (seus arquivos data/) fornece dados reais
+Resposta volta educativa e segura
+```
+
+
+
 🛡️ Diferenciais do Projeto
 
 IA 100% local (privacidade total, sem envio de dados para nuvem)
